@@ -865,7 +865,7 @@ wheels = [
 ]
 
 [[package]]
-name = "finserv-payload"
+name = "finserv-your-own-data"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

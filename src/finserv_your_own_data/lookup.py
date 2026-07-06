@@ -21,7 +21,7 @@ from typing import Any
 
 
 def _load_companies() -> dict[str, Any]:
-    data = files("finserv_payload").joinpath("data/companies.json").read_text()
+    data = files("finserv_your_own_data").joinpath("data/companies.json").read_text()
     return json.loads(data)
 
 

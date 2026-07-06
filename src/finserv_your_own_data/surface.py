@@ -1,7 +1,7 @@
 """Payload entrypoint (issue #10) — enrich the caller's own company, cost
 label it, and store it as a per-run isolated trace.
 
-Unlike the async Slack surface in ../test-drive (a different value prop),
+Unlike the async Slack surface in ../no-code-trigger (a different value prop),
 this scenario's wow moment is the synchronous call-and-read: the caller
 brings their own company, calls the endpoint, and immediately reads back
 both the enrichment brief and its labeled cost estimate — no separate
@@ -17,10 +17,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from finserv_payload.cost import estimate_cost
-from finserv_payload.crew import build_enrichment_crew
-from finserv_payload.lookup import lookup_company
-from finserv_payload.trace import TraceStore
+from finserv_your_own_data.cost import estimate_cost
+from finserv_your_own_data.crew import build_enrichment_crew
+from finserv_your_own_data.lookup import lookup_company
+from finserv_your_own_data.trace import TraceStore
 
 # Shown at the point of input (surface + docs, issue #10 acceptance) — framing
 # borrowed from the portfolio brief: "a public company you'd love as a

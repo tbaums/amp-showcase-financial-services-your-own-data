@@ -23,8 +23,8 @@ import os
 from crewai import LLM
 from crewai.flow.flow import Flow, start
 
-from finserv_payload.surface import PUBLIC_DATA_NOTICE, PayloadRequest, run_enrichment
-from finserv_payload.trace import TraceStore
+from finserv_your_own_data.surface import PUBLIC_DATA_NOTICE, PayloadRequest, run_enrichment
+from finserv_your_own_data.trace import TraceStore
 
 DEFAULT_MODEL = "anthropic/claude-haiku-4-5-20251001"
 

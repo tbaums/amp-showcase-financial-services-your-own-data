@@ -13,7 +13,7 @@ from __future__ import annotations
 from crewai import Agent, Crew, Task
 from crewai.tools import tool
 
-from finserv_payload.lookup import lookup_company
+from finserv_your_own_data.lookup import lookup_company
 
 
 @tool("enrich_company")

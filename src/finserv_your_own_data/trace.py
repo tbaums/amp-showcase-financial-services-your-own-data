@@ -16,7 +16,7 @@ from __future__ import annotations
 import uuid
 from dataclasses import dataclass
 
-from finserv_payload.cost import CostEstimate
+from finserv_your_own_data.cost import CostEstimate
 
 
 @dataclass(frozen=True)
