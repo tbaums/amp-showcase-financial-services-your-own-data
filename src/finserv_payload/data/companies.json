@@ -1,0 +1,20 @@
+{
+  "Cascadia Mercantile Bank": {
+    "sector": "Regional Banking",
+    "headquarters": "Portland Metro, Fictionville",
+    "notable": "Mid-market commercial lender, strong SMB deposit base.",
+    "relationship_notes": "No prior engagement on file. Clean regulatory history in our synthetic records."
+  },
+  "Farview Underwriting Group": {
+    "sector": "Specialty Insurance",
+    "headquarters": "Lakeshore, Fictionville",
+    "notable": "Underwrites niche commercial property risk; growing fast.",
+    "relationship_notes": "Flagged once for a late filing (synthetic, resolved) — otherwise unremarkable."
+  },
+  "Boreal Fintech Holdings": {
+    "sector": "Payments Infrastructure",
+    "headquarters": "Northgate, Fictionville",
+    "notable": "White-label card issuing platform for regional banks.",
+    "relationship_notes": "Referred by an existing synthetic client; no adverse history on file."
+  }
+}

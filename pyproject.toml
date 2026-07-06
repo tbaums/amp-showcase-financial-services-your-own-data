@@ -1,0 +1,21 @@
+[project]
+name = "finserv-payload"
+version = "0.1.0"
+description = "FinServ The Payload You Brought — enrich your own company, read a cost-annotated trace."
+requires-python = ">=3.10"
+dependencies = [
+    "crewai[anthropic]>=1.14.7,<2",
+]
+
+[project.scripts]
+kickoff = "finserv_payload.main:kickoff"
+
+[tool.crewai]
+type = "flow"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/finserv_payload"]
